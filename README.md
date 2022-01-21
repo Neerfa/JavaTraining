@@ -1,6 +1,12 @@
 # JavaTraining
 For Airline project this are table required
 
+create table book(name varchar2(30),email varchar2(30),phoneno varchar2(30),address varchar2(30),age varchar2(30),source varchar2(30),destnation varchar2(30),price varchar2(30));
+
+create table fare(fname varchar2(30),fdate varchar2(30),source varchar2(30),destination varchar2(30),price varchar2(30),ftime varchar2(30));
+
+
+
 insert into fare values('Indigo','2022-07-04','Banglore','Delhi','5k','8:00AM')
 
 
